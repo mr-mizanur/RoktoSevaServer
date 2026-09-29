@@ -10,7 +10,7 @@ process.env.BETTER_AUTH_URL = process.env.BETTER_SERVER || "http://localhost:500
 const app = express();
 const PORT = process.env.PORT || 5000;
 app.use(cors({
- origin: ["http://localhost:3000", "https://rokto-seva.vercel.app"],
+ origin: [ "https://rokto-seva.vercel.app","https://roktoseva.vercel.app/"],
  credentials: true
 }));
 app.use(express.json());
